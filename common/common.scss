@@ -1,31 +1,31 @@
 /* 1/12/2023*/
-.sidebar-section-categories .sidebar-section-link-wrapper {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] .sidebar-section-link-wrapper {
     display: block !important;
 }
 
-.sidebar-section-categories ul.cat_topics li a.title, .sidebar-section-categories ul.cat_topics li p {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li a.title, .sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li p {
     color: #646464;
     font-size: 12px;
 }
 
-.sidebar-section-categories ul.cat_topics {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics {
     margin: 0;
      display: none;
     padding: 5px 35px;
 }
 
-.sidebar-section-categories ul.cat_topics li.topic_items.topic_items_hidden {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li.topic_items.topic_items_hidden {
     display: none;
 }
-.sidebar-section-categories ul.cat_topics li.hidden_btn{
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li.hidden_btn{
     display:none;
 }
-.sidebar-section-categories ul.cat_topics li {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li {
     list-style: none;
     position: relative;
     margin-bottom: 10px;
 }
-.sidebar-section-categories ul.cat_topics li.topic_items:before {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics li.topic_items:before {
     content: "";
     position: absolute;
     width: 5px;
@@ -34,10 +34,10 @@
     left: -10px;
     top: 10px;
 }
-.sidebar-section-categories span.cat_drop_down_icon {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] span.cat_drop_down_icon {
     margin-left: auto;
 }
-.sidebar-section-categories li.topic_items_load_more,.sidebar-section-categories li.topic_items_show_less {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] li.topic_items_load_more,.sidebar-section-wrapper.sidebar-section[data-section-name=categories] li.topic_items_show_less {
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@
 
 
 
-.sidebar-section-categories {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] {
     order: 1;
 }
 .sidebar-section-community {
@@ -69,7 +69,7 @@
     line-height: normal;
 }
 @media only screen and (max-width: 820px) {
-.sidebar-section-categories ul.cat_topics {
+.sidebar-section-wrapper.sidebar-section[data-section-name=categories] ul.cat_topics {
    display:block;
 }
 }
