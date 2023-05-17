@@ -1,0 +1,3 @@
+topic_list_count:
+  default: 20
+  description: "Number of Topics to Listed under category by default"
