@@ -50,17 +50,12 @@
 .sidebar-section-wrapper.sidebar-section[data-section-name=categories] {
     order: 1;
 }
-.sidebar-section-community {
-    order: 2;
-}
-
-.sidebar-section-messages {
-    order: 3;
-}
 .sidebar-section-wrapper.sidebar-section[data-section-name=tags] {
     order: 2;
 }
-
+.sidebar-section-wrapper.sidebar-section[data-section-name=messages] {
+    order: 4;
+}
 .sidebar-custom-sections {
     order: 3;
 }
