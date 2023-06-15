@@ -57,8 +57,12 @@
 .sidebar-section-messages {
     order: 3;
 }
-.sidebar-section-wrapper.sidebar-section-tags {
-    order: 4;
+.sidebar-section-wrapper.sidebar-section[data-section-name=tags] {
+    order: 2;
+}
+
+.sidebar-custom-sections {
+    order: 3;
 }
 .topic_items .creator a {
     color: var(--primary-medium);
